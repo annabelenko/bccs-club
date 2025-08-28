@@ -112,9 +112,6 @@ export default function ExecutiveBoardSection() {
               <HoverImage photo={member.photo} hoverPhoto={member.hoverPhoto} alt={member.name} />
               <h3 className="mt-4 text-base sm:text-lg font-semibold leading-7 tracking-tight text-gray-900">{member.name}</h3>
               <p className="text-sm sm:text-base leading-6 text-gray-600">{member.role}</p>
-              {member.quote && (
-                <p className="mt-2 italic text-gray-500 text-xs sm:text-sm">{member.quote}</p>
-              )}
               <ul role="list" className="mt-6 flex justify-center gap-x-6">
                 {member.linkedinUrl && (
                   <li>
