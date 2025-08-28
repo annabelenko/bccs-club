@@ -43,7 +43,6 @@ interface Member {
   role: string;
   photo: any;
   hoverPhoto?: any;
-  quote?: string;
   linkedinUrl?: string;
   githubUrl?: string;
   personalWebsiteUrl?: string;
@@ -59,7 +58,6 @@ const members: Member[] = [
     linkedinUrl: 'https://www.linkedin.com/in/annabelenko/',
     githubUrl: 'https://github.com/annabelenko',
     personalWebsiteUrl: 'https://annabelenko.com/',
-    quote: "She probably won't remember your name, or didn't hear you the first time. Either one.",
   },
   {
     name: 'Pawel Cieslak',
@@ -68,7 +66,6 @@ const members: Member[] = [
     hoverPhoto: pawelCieslakPicHover,
     linkedinUrl: 'https://www.linkedin.com/in/pawelcieslak4/',
     githubUrl: 'https://github.com/PawelC4',
-    quote: "He lost his airpod case at a Blink Fitness gym. He's also a Macaulay Honors student.",
   },
   {
     name: 'Faizan Khan',
@@ -78,7 +75,6 @@ const members: Member[] = [
     linkedinUrl: 'https://www.linkedin.com/in/faizan-khan234/',
     githubUrl: 'https://github.com/jellyfishing2346',
     instagramUrl: 'https://www.instagram.com/faizizizan/',
-    quote: 'He keeps the team dynamic very, uh, interesting. Also very responsive over text.',
   },
   {
     name: 'Jessica Livchits',
@@ -87,7 +83,6 @@ const members: Member[] = [
     hoverPhoto: jessicaLivchitsPicHover,
     linkedinUrl: 'https://www.linkedin.com/in/jessica-livchits-75b479262/',
     githubUrl: 'https://github.com/jessicalist',
-    quote: 'She can probably give you recommendations on cubbing spots in the city.',
   },
   {
     name: 'Lu Gonzalez',
@@ -96,7 +91,6 @@ const members: Member[] = [
     hoverPhoto: luGonzalezPicHover,
     linkedinUrl: 'https://www.linkedin.com/in/luis-gonzalez-148354272/',
     githubUrl: 'https://github.com/lu-syn',
-    quote: 'A little too obsessed with Street Fighter 6. And wearing black. Super chill and laid back.',
   },
 ];
 
